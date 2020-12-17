@@ -1,0 +1,60 @@
+SOURCE: Cohen Textbook
+Binary Search Tree
+Red-Black Tree
+Van Emde Boas Tree
+Fibonacci Heap
+
+
+SOURCE: Handbook of Data Structures
+Tree
+Priority Queue
+ Leftist Tree, Skew Heap,
+ Binomial, Fibonacci and Pairing Heap
+ Double-Ended Priority Queue
+Dictionary
+ Hash Table
+ Balanced Binary Search Tree
+ Finger Search Tree
+ Splay Tree
+ B-tree
+Multidimensional and Spatial 
+ Interval, Segment, Range, Priority Search Tree
+ Quadtree, Octree, Binary Space Partitioning tree
+ R-tree 
+Miscellaneous Data Structure
+ Tries
+ Suffix Trees, Suffix Arrays
+ PQ Trees, PC Trees, Planar Graphs
+ Set
+ Dynamic Tree
+ Dynamic Graph
+
+SOURCE: Standford CS166
+Range minimum query
+Trie
+Suffix Array
+LCP Array
+Red-Black Tree
+Augmented Binary Search Tree
+Binomial Heap
+Lazy Binomial Heap
+Fibonacci Heap
+x-Fast y-Fast Trie
+Splay Tree
+Fusion Tree
+
+Source: Wiki Self-balancing Tree
+2-3 Tree
+AA tree
+AVL Tree
+B-Tree
+Red-black Tree
+Splay Tree
+Scapegoat Tree
+Weight-balanced Tree
+
+
+==================================================================
+Goal,operations,complexity of operations
+
+
