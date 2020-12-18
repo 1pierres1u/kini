@@ -18,19 +18,19 @@ protected:
 	bool duplicateAllowed;
 public:
 	BinarySearchTree();
-	BinarySearchTree(vector<T>& valuesToInsert,bool allowDuplicate=true,bool random=false);
-	BinarySearchTree(BinarySearchTree& bst);
+	BinarySearchTree(const vector<T>& valuesToInsert,bool allowDuplicate=true,bool random=false);
+	BinarySearchTree(const BinarySearchTree& bst);
 	BinarySearchTree& operator+(const BinarySearchTree<T>& rh)const;
 	BinarySearchTree& operator=(const BinarySearchTree& rh);
 	~BinarySearchTree();
-	void insert(T& x);
-	void remove(T& x);
-	size_t search(T& x,bool countDuplicate=false)const;
+	void insert(const T& x);
+	void remove(const T& x);
+	size_t search(const T& x,bool countDuplicate=false)const;
 	size_t size()const;
 	T find_min()const;
 	T find_max()const;
-	T find_predecessor(T& x)const;
-	T find_successor(T& x)const;
+	T find_predecessor(const T& x)const;
+	T find_successor(const T& x)const;
 	vector<T> traversal(string type,bool recursiveOrIterative=true)const;
 };
 #endif

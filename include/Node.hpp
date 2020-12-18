@@ -4,12 +4,12 @@
 #include <memory>
 
 template<class T>
-struct Node
+class Node
 {
  T key;
  shared_ptr<Node<T>> parent;
- vector<unique_ptr<T>> children;
+ vector<unique_ptr<Node<T>>> children;
  Node();
- Node(T& x);	
+ explicit Node(T& x);	
 };
 #endif

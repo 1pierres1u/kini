@@ -4,7 +4,9 @@
 #include "Node.hpp"
 #include <memory>
 
-template<class NodeType>
+
+template<class NodeType,class NodeBase=Node>
+requires std::derived_from<NodeType,NodeBase>
 class Tree
 {
 protected:

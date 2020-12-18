@@ -51,10 +51,12 @@ B-Tree
 Red-black Tree
 Splay Tree
 Scapegoat Tree
+Tango Tree
 Weight-balanced Tree
 
 
 ==================================================================
 Goal,operations,complexity of operations
 
+Define an iterator for the binarySearchTree: Good idea?
 
