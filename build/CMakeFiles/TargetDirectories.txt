@@ -1,4 +1,4 @@
-C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumNaiveTest.dir
+C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumQueryTest.dir
 C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/rebuild_cache.dir
 C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/test.dir
 C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,2 @@
+use friend class to avoid returning.
+use constexpr

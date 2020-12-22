@@ -3,6 +3,10 @@
 
 #include <memory>
 #include <vector>
+#include "RangeMinimumQuery.hpp"
+using std::vector;
+using std::unique_ptr;
+using std::shared_ptr;
 
 enum RMQStructureType
 { NAIVE = 0,
@@ -29,8 +33,9 @@ public:
 	RangeMinimumHybrid(size_t sBlockSize,RMQStructureType rBlockMinimaRMQType, RMQStructureType rEachBlockRMQType, const vector<T>& elements);
 	void build(size_t sBlockSize, const vector<T>& elements);
 	void build(size_t sBlockSize, RMQStructureType rBlockMinimaRMQType, RMQStructureType rEachBlockRMQType, const vector<T>& elements);
+	void build(const vector<T>& elements);
 	T range_minimum(size_t index_a, size_t index_b)const;
 };
-
+#include "../src/RangeMinimumHybrid.tpp"
 #endif
 
