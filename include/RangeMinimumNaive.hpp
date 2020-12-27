@@ -3,16 +3,20 @@
 
 #include <vector>
 #include "RangeMinimumQuery.hpp"
+using std::vector;
+
 
 template<class T>
 class RangeMinimumNaive: public RangeMinimumQuery<T>
 {
 private:
-	std::vector<T> elements;
+	vector<T> elements;
 public:
 	RangeMinimumNaive();
-	RangeMinimumNaive(const std::vector<T>& vElements);
-	void build(const std::vector<T>& vElements);
+	RangeMinimumNaive(const RangeMinimumNaive& r);
+	RangeMinimumNaive(RangeMinimumNaive&& r);
+	explicit RangeMinimumNaive(const vector<T>& vElements);
+	void build(const vector<T>& vElements);
         T range_minimum(size_t index_a, size_t index_b)const;   
 };
 

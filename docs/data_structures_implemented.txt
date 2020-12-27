@@ -54,6 +54,9 @@ Scapegoat Tree
 Tango Tree
 Weight-balanced Tree
 
+Source: General
+Graph
+
 
 ==================================================================
 Goal,operations,complexity of operations

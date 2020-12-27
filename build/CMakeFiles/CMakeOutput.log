@@ -28,52 +28,52 @@ The CXX compiler identification is GNU, found in "C:/Users/Socrasthy/Desktop/Z/k
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_d9b82\fast && 	nmake  -f CMakeFiles\cmTC_d9b82.dir\build.make /nologo -L                  CMakeFiles\cmTC_d9b82.dir\build
-Building C object CMakeFiles/cmTC_d9b82.dir/testCCompiler.c.obj
-	C:\cygwin64\bin\gcc.exe    -o CMakeFiles\cmTC_d9b82.dir\testCCompiler.c.obj -c C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_d9b82.exe
-	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d9b82.dir/objects.a
-	C:\cygwin64\bin\ar.exe cr CMakeFiles\cmTC_d9b82.dir/objects.a @CMakeFiles\cmTC_d9b82.dir\objects1.rsp
-	C:\cygwin64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_d9b82.dir/objects.a -Wl,--no-whole-archive -o cmTC_d9b82.exe -Wl,--out-implib,libcmTC_d9b82.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Run Build Command(s):nmake /nologo cmTC_c8445\fast && 	nmake  -f CMakeFiles\cmTC_c8445.dir\build.make /nologo -L                  CMakeFiles\cmTC_c8445.dir\build
+Building C object CMakeFiles/cmTC_c8445.dir/testCCompiler.c.obj
+	C:\cygwin64\bin\gcc.exe    -o CMakeFiles\cmTC_c8445.dir\testCCompiler.c.obj -c C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_c8445.exe
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_c8445.dir/objects.a
+	C:\cygwin64\bin\ar.exe cr CMakeFiles\cmTC_c8445.dir/objects.a @CMakeFiles\cmTC_c8445.dir\objects1.rsp
+	C:\cygwin64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_c8445.dir/objects.a -Wl,--no-whole-archive -o cmTC_c8445.exe -Wl,--out-implib,libcmTC_c8445.dll.a -Wl,--major-image-version,0,--minor-image-version,0
 
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_df74a\fast && 	nmake  -f CMakeFiles\cmTC_df74a.dir\build.make /nologo -L                  CMakeFiles\cmTC_df74a.dir\build
-Building CXX object CMakeFiles/cmTC_df74a.dir/testCXXCompiler.cxx.o
-	C:\cygwin64\bin\g++.exe    -o CMakeFiles\cmTC_df74a.dir\testCXXCompiler.cxx.o -c C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_df74a.exe
-	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_df74a.dir/objects.a
-	C:\cygwin64\bin\ar.exe cr CMakeFiles\cmTC_df74a.dir/objects.a @CMakeFiles\cmTC_df74a.dir\objects1.rsp
-	C:\cygwin64\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_df74a.dir/objects.a -Wl,--no-whole-archive -o cmTC_df74a.exe -Wl,--out-implib,libcmTC_df74a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Run Build Command(s):nmake /nologo cmTC_f0739\fast && 	nmake  -f CMakeFiles\cmTC_f0739.dir\build.make /nologo -L                  CMakeFiles\cmTC_f0739.dir\build
+Building CXX object CMakeFiles/cmTC_f0739.dir/testCXXCompiler.cxx.o
+	C:\cygwin64\bin\g++.exe    -o CMakeFiles\cmTC_f0739.dir\testCXXCompiler.cxx.o -c C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_f0739.exe
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f0739.dir/objects.a
+	C:\cygwin64\bin\ar.exe cr CMakeFiles\cmTC_f0739.dir/objects.a @CMakeFiles\cmTC_f0739.dir\objects1.rsp
+	C:\cygwin64\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_f0739.dir/objects.a -Wl,--no-whole-archive -o cmTC_f0739.exe -Wl,--out-implib,libcmTC_f0739.dll.a -Wl,--major-image-version,0,--minor-image-version,0
 
 
 
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_1796a\fast && 	nmake  -f CMakeFiles\cmTC_1796a.dir\build.make /nologo -L                  CMakeFiles\cmTC_1796a.dir\build
-Building C object CMakeFiles/cmTC_1796a.dir/CheckIncludeFile.c.obj
-	C:\cygwin64\bin\gcc.exe    -o CMakeFiles\cmTC_1796a.dir\CheckIncludeFile.c.obj -c C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_1796a.exe
-	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1796a.dir/objects.a
-	C:\cygwin64\bin\ar.exe cr CMakeFiles\cmTC_1796a.dir/objects.a @CMakeFiles\cmTC_1796a.dir\objects1.rsp
-	C:\cygwin64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_1796a.dir/objects.a -Wl,--no-whole-archive -o cmTC_1796a.exe -Wl,--out-implib,libcmTC_1796a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Run Build Command(s):nmake /nologo cmTC_41e85\fast && 	nmake  -f CMakeFiles\cmTC_41e85.dir\build.make /nologo -L                  CMakeFiles\cmTC_41e85.dir\build
+Building C object CMakeFiles/cmTC_41e85.dir/CheckIncludeFile.c.obj
+	C:\cygwin64\bin\gcc.exe    -o CMakeFiles\cmTC_41e85.dir\CheckIncludeFile.c.obj -c C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_41e85.exe
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_41e85.dir/objects.a
+	C:\cygwin64\bin\ar.exe cr CMakeFiles\cmTC_41e85.dir/objects.a @CMakeFiles\cmTC_41e85.dir\objects1.rsp
+	C:\cygwin64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_41e85.dir/objects.a -Wl,--no-whole-archive -o cmTC_41e85.exe -Wl,--out-implib,libcmTC_41e85.dll.a -Wl,--major-image-version,0,--minor-image-version,0
 
 
 
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
 Change Dir: C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_2a198\fast && 	nmake  -f CMakeFiles\cmTC_2a198.dir\build.make /nologo -L                  CMakeFiles\cmTC_2a198.dir\build
-Building C object CMakeFiles/cmTC_2a198.dir/src.c.obj
-	C:\cygwin64\bin\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\cmTC_2a198.dir\src.c.obj -c C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_2a198.exe
-	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_2a198.dir/objects.a
-	C:\cygwin64\bin\ar.exe cr CMakeFiles\cmTC_2a198.dir/objects.a @CMakeFiles\cmTC_2a198.dir\objects1.rsp
-	C:\cygwin64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_2a198.dir/objects.a -Wl,--no-whole-archive -o cmTC_2a198.exe -Wl,--out-implib,libcmTC_2a198.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+Run Build Command(s):nmake /nologo cmTC_256c5\fast && 	nmake  -f CMakeFiles\cmTC_256c5.dir\build.make /nologo -L                  CMakeFiles\cmTC_256c5.dir\build
+Building C object CMakeFiles/cmTC_256c5.dir/src.c.obj
+	C:\cygwin64\bin\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\cmTC_256c5.dir\src.c.obj -c C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_256c5.exe
+	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_256c5.dir/objects.a
+	C:\cygwin64\bin\ar.exe cr CMakeFiles\cmTC_256c5.dir/objects.a @CMakeFiles\cmTC_256c5.dir\objects1.rsp
+	C:\cygwin64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_256c5.dir/objects.a -Wl,--no-whole-archive -o cmTC_256c5.exe -Wl,--out-implib,libcmTC_256c5.dll.a -Wl,--major-image-version,0,--minor-image-version,0
 
 
 Source file was:
