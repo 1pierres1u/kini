@@ -163,6 +163,33 @@ gtest_main\fast:
 	$(MAKE) $(MAKESILENT) -f libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\build
 .PHONY : gtest_main\fast
 
+tests\IntervalTreeCenteredTest.obj: tests\IntervalTreeCenteredTest.cpp.obj
+
+.PHONY : tests\IntervalTreeCenteredTest.obj
+
+# target to build an object file
+tests\IntervalTreeCenteredTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.obj
+.PHONY : tests\IntervalTreeCenteredTest.cpp.obj
+
+tests\IntervalTreeCenteredTest.i: tests\IntervalTreeCenteredTest.cpp.i
+
+.PHONY : tests\IntervalTreeCenteredTest.i
+
+# target to preprocess a source file
+tests\IntervalTreeCenteredTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.i
+.PHONY : tests\IntervalTreeCenteredTest.cpp.i
+
+tests\IntervalTreeCenteredTest.s: tests\IntervalTreeCenteredTest.cpp.s
+
+.PHONY : tests\IntervalTreeCenteredTest.s
+
+# target to generate assembly for a file
+tests\IntervalTreeCenteredTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.s
+.PHONY : tests\IntervalTreeCenteredTest.cpp.s
+
 tests\RangeMinimumBlockTest.obj: tests\RangeMinimumBlockTest.cpp.obj
 
 .PHONY : tests\RangeMinimumBlockTest.obj
@@ -337,6 +364,9 @@ help:
 	@echo ... RangeMinimumQueryTest
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... tests/IntervalTreeCenteredTest.obj
+	@echo ... tests/IntervalTreeCenteredTest.i
+	@echo ... tests/IntervalTreeCenteredTest.s
 	@echo ... tests/RangeMinimumBlockTest.obj
 	@echo ... tests/RangeMinimumBlockTest.i
 	@echo ... tests/RangeMinimumBlockTest.s

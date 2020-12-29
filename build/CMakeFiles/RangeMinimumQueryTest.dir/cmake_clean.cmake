@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/RangeMinimumQueryTest.dir/tests/IntervalTreeCenteredTest.cpp.obj"
   "CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumBlockTest.cpp.obj"
   "CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumHybridTest.cpp.obj"
   "CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumNaiveTest.cpp.obj"
