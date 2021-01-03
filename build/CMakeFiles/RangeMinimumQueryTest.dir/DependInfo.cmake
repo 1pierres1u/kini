@@ -4,13 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Socrasthy/Desktop/Z/kini/tests/IntervalTreeCenteredTest.cpp" "C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumQueryTest.dir/tests/IntervalTreeCenteredTest.cpp.obj"
-  "C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumBlockTest.cpp" "C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumBlockTest.cpp.obj"
-  "C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumHybridTest.cpp" "C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumHybridTest.cpp.obj"
-  "C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumNaiveTest.cpp" "C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumNaiveTest.cpp.obj"
-  "C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumPreprocessNaiveTest.cpp" "C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumPreprocessNaiveTest.cpp.obj"
-  "C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumQuery.cpp" "C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQuery.cpp.obj"
-  "C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumSparseTest.cpp" "C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumSparseTest.cpp.obj"
+  "C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumQueryNaiveTest.cpp" "C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQueryNaiveTest.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

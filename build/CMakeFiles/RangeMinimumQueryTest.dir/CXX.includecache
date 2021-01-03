@@ -234,31 +234,31 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/Users/Socrasthy/Desktop/Z/kini/include/IntervalTree.hpp
-utility
--
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuery.hpp
 vector
 -
-
-C:/Users/Socrasthy/Desktop/Z/kini/include/IntervalTreeCentered.hpp
-IntervalTree.hpp
-C:/Users/Socrasthy/Desktop/Z/kini/include/IntervalTree.hpp
-memory
+stdexcept
 -
+
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryNaive.hpp
+RangeMinimumQuery.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuery.hpp
 vector
 -
-../src/IntervalTreeCentered.tpp
-C:/Users/Socrasthy/Desktop/Z/kini/src/IntervalTreeCentered.tpp
+../src/RangeMinimumQueryNaive.tpp
+C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryNaive.tpp
 
-C:/Users/Socrasthy/Desktop/Z/kini/src/IntervalTreeCentered.tpp
+C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryNaive.tpp
 
-C:/Users/Socrasthy/Desktop/Z/kini/tests/IntervalTreeCenteredTest.cpp
-../include/IntervalTreeCentered.hpp
-C:/Users/Socrasthy/Desktop/Z/kini/include/IntervalTreeCentered.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumQueryNaiveTest.cpp
+../include/RangeMinimumQueryNaive.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryNaive.hpp
 gtest/gtest.h
--
-utility
--
+C:/Users/Socrasthy/Desktop/Z/kini/tests/gtest/gtest.h
 iostream
+-
+vector
+-
+numeric
 -
 

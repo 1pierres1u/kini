@@ -163,194 +163,32 @@ gtest_main\fast:
 	$(MAKE) $(MAKESILENT) -f libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\build
 .PHONY : gtest_main\fast
 
-tests\IntervalTreeCenteredTest.obj: tests\IntervalTreeCenteredTest.cpp.obj
+tests\RangeMinimumQueryNaiveTest.obj: tests\RangeMinimumQueryNaiveTest.cpp.obj
 
-.PHONY : tests\IntervalTreeCenteredTest.obj
-
-# target to build an object file
-tests\IntervalTreeCenteredTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.obj
-.PHONY : tests\IntervalTreeCenteredTest.cpp.obj
-
-tests\IntervalTreeCenteredTest.i: tests\IntervalTreeCenteredTest.cpp.i
-
-.PHONY : tests\IntervalTreeCenteredTest.i
-
-# target to preprocess a source file
-tests\IntervalTreeCenteredTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.i
-.PHONY : tests\IntervalTreeCenteredTest.cpp.i
-
-tests\IntervalTreeCenteredTest.s: tests\IntervalTreeCenteredTest.cpp.s
-
-.PHONY : tests\IntervalTreeCenteredTest.s
-
-# target to generate assembly for a file
-tests\IntervalTreeCenteredTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.s
-.PHONY : tests\IntervalTreeCenteredTest.cpp.s
-
-tests\RangeMinimumBlockTest.obj: tests\RangeMinimumBlockTest.cpp.obj
-
-.PHONY : tests\RangeMinimumBlockTest.obj
+.PHONY : tests\RangeMinimumQueryNaiveTest.obj
 
 # target to build an object file
-tests\RangeMinimumBlockTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.obj
-.PHONY : tests\RangeMinimumBlockTest.cpp.obj
+tests\RangeMinimumQueryNaiveTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.obj
+.PHONY : tests\RangeMinimumQueryNaiveTest.cpp.obj
 
-tests\RangeMinimumBlockTest.i: tests\RangeMinimumBlockTest.cpp.i
+tests\RangeMinimumQueryNaiveTest.i: tests\RangeMinimumQueryNaiveTest.cpp.i
 
-.PHONY : tests\RangeMinimumBlockTest.i
-
-# target to preprocess a source file
-tests\RangeMinimumBlockTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.i
-.PHONY : tests\RangeMinimumBlockTest.cpp.i
-
-tests\RangeMinimumBlockTest.s: tests\RangeMinimumBlockTest.cpp.s
-
-.PHONY : tests\RangeMinimumBlockTest.s
-
-# target to generate assembly for a file
-tests\RangeMinimumBlockTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.s
-.PHONY : tests\RangeMinimumBlockTest.cpp.s
-
-tests\RangeMinimumHybridTest.obj: tests\RangeMinimumHybridTest.cpp.obj
-
-.PHONY : tests\RangeMinimumHybridTest.obj
-
-# target to build an object file
-tests\RangeMinimumHybridTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.obj
-.PHONY : tests\RangeMinimumHybridTest.cpp.obj
-
-tests\RangeMinimumHybridTest.i: tests\RangeMinimumHybridTest.cpp.i
-
-.PHONY : tests\RangeMinimumHybridTest.i
+.PHONY : tests\RangeMinimumQueryNaiveTest.i
 
 # target to preprocess a source file
-tests\RangeMinimumHybridTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.i
-.PHONY : tests\RangeMinimumHybridTest.cpp.i
+tests\RangeMinimumQueryNaiveTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.i
+.PHONY : tests\RangeMinimumQueryNaiveTest.cpp.i
 
-tests\RangeMinimumHybridTest.s: tests\RangeMinimumHybridTest.cpp.s
+tests\RangeMinimumQueryNaiveTest.s: tests\RangeMinimumQueryNaiveTest.cpp.s
 
-.PHONY : tests\RangeMinimumHybridTest.s
-
-# target to generate assembly for a file
-tests\RangeMinimumHybridTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.s
-.PHONY : tests\RangeMinimumHybridTest.cpp.s
-
-tests\RangeMinimumNaiveTest.obj: tests\RangeMinimumNaiveTest.cpp.obj
-
-.PHONY : tests\RangeMinimumNaiveTest.obj
-
-# target to build an object file
-tests\RangeMinimumNaiveTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.obj
-.PHONY : tests\RangeMinimumNaiveTest.cpp.obj
-
-tests\RangeMinimumNaiveTest.i: tests\RangeMinimumNaiveTest.cpp.i
-
-.PHONY : tests\RangeMinimumNaiveTest.i
-
-# target to preprocess a source file
-tests\RangeMinimumNaiveTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.i
-.PHONY : tests\RangeMinimumNaiveTest.cpp.i
-
-tests\RangeMinimumNaiveTest.s: tests\RangeMinimumNaiveTest.cpp.s
-
-.PHONY : tests\RangeMinimumNaiveTest.s
+.PHONY : tests\RangeMinimumQueryNaiveTest.s
 
 # target to generate assembly for a file
-tests\RangeMinimumNaiveTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.s
-.PHONY : tests\RangeMinimumNaiveTest.cpp.s
-
-tests\RangeMinimumPreprocessNaiveTest.obj: tests\RangeMinimumPreprocessNaiveTest.cpp.obj
-
-.PHONY : tests\RangeMinimumPreprocessNaiveTest.obj
-
-# target to build an object file
-tests\RangeMinimumPreprocessNaiveTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.obj
-.PHONY : tests\RangeMinimumPreprocessNaiveTest.cpp.obj
-
-tests\RangeMinimumPreprocessNaiveTest.i: tests\RangeMinimumPreprocessNaiveTest.cpp.i
-
-.PHONY : tests\RangeMinimumPreprocessNaiveTest.i
-
-# target to preprocess a source file
-tests\RangeMinimumPreprocessNaiveTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.i
-.PHONY : tests\RangeMinimumPreprocessNaiveTest.cpp.i
-
-tests\RangeMinimumPreprocessNaiveTest.s: tests\RangeMinimumPreprocessNaiveTest.cpp.s
-
-.PHONY : tests\RangeMinimumPreprocessNaiveTest.s
-
-# target to generate assembly for a file
-tests\RangeMinimumPreprocessNaiveTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.s
-.PHONY : tests\RangeMinimumPreprocessNaiveTest.cpp.s
-
-tests\RangeMinimumQuery.obj: tests\RangeMinimumQuery.cpp.obj
-
-.PHONY : tests\RangeMinimumQuery.obj
-
-# target to build an object file
-tests\RangeMinimumQuery.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj
-.PHONY : tests\RangeMinimumQuery.cpp.obj
-
-tests\RangeMinimumQuery.i: tests\RangeMinimumQuery.cpp.i
-
-.PHONY : tests\RangeMinimumQuery.i
-
-# target to preprocess a source file
-tests\RangeMinimumQuery.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.i
-.PHONY : tests\RangeMinimumQuery.cpp.i
-
-tests\RangeMinimumQuery.s: tests\RangeMinimumQuery.cpp.s
-
-.PHONY : tests\RangeMinimumQuery.s
-
-# target to generate assembly for a file
-tests\RangeMinimumQuery.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.s
-.PHONY : tests\RangeMinimumQuery.cpp.s
-
-tests\RangeMinimumSparseTest.obj: tests\RangeMinimumSparseTest.cpp.obj
-
-.PHONY : tests\RangeMinimumSparseTest.obj
-
-# target to build an object file
-tests\RangeMinimumSparseTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.obj
-.PHONY : tests\RangeMinimumSparseTest.cpp.obj
-
-tests\RangeMinimumSparseTest.i: tests\RangeMinimumSparseTest.cpp.i
-
-.PHONY : tests\RangeMinimumSparseTest.i
-
-# target to preprocess a source file
-tests\RangeMinimumSparseTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.i
-.PHONY : tests\RangeMinimumSparseTest.cpp.i
-
-tests\RangeMinimumSparseTest.s: tests\RangeMinimumSparseTest.cpp.s
-
-.PHONY : tests\RangeMinimumSparseTest.s
-
-# target to generate assembly for a file
-tests\RangeMinimumSparseTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.s
-.PHONY : tests\RangeMinimumSparseTest.cpp.s
+tests\RangeMinimumQueryNaiveTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.s
+.PHONY : tests\RangeMinimumQueryNaiveTest.cpp.s
 
 # Help Target
 help:
@@ -364,27 +202,9 @@ help:
 	@echo ... RangeMinimumQueryTest
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... tests/IntervalTreeCenteredTest.obj
-	@echo ... tests/IntervalTreeCenteredTest.i
-	@echo ... tests/IntervalTreeCenteredTest.s
-	@echo ... tests/RangeMinimumBlockTest.obj
-	@echo ... tests/RangeMinimumBlockTest.i
-	@echo ... tests/RangeMinimumBlockTest.s
-	@echo ... tests/RangeMinimumHybridTest.obj
-	@echo ... tests/RangeMinimumHybridTest.i
-	@echo ... tests/RangeMinimumHybridTest.s
-	@echo ... tests/RangeMinimumNaiveTest.obj
-	@echo ... tests/RangeMinimumNaiveTest.i
-	@echo ... tests/RangeMinimumNaiveTest.s
-	@echo ... tests/RangeMinimumPreprocessNaiveTest.obj
-	@echo ... tests/RangeMinimumPreprocessNaiveTest.i
-	@echo ... tests/RangeMinimumPreprocessNaiveTest.s
-	@echo ... tests/RangeMinimumQuery.obj
-	@echo ... tests/RangeMinimumQuery.i
-	@echo ... tests/RangeMinimumQuery.s
-	@echo ... tests/RangeMinimumSparseTest.obj
-	@echo ... tests/RangeMinimumSparseTest.i
-	@echo ... tests/RangeMinimumSparseTest.s
+	@echo ... tests/RangeMinimumQueryNaiveTest.obj
+	@echo ... tests/RangeMinimumQueryNaiveTest.i
+	@echo ... tests/RangeMinimumQueryNaiveTest.s
 .PHONY : help
 
 

@@ -60,131 +60,35 @@ include CMakeFiles\RangeMinimumQueryTest.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\RangeMinimumQueryTest.dir\flags.make
 
-CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\flags.make
-CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\includes_CXX.rsp
-CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.obj: ..\tests\IntervalTreeCenteredTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RangeMinimumQueryTest.dir/tests/IntervalTreeCenteredTest.cpp.obj"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.obj -c C:\Users\Socrasthy\Desktop\Z\kini\tests\IntervalTreeCenteredTest.cpp
+CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\flags.make
+CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\includes_CXX.rsp
+CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.obj: ..\tests\RangeMinimumQueryNaiveTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQueryNaiveTest.cpp.obj"
+	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.obj -c C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumQueryNaiveTest.cpp
 
-CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RangeMinimumQueryTest.dir/tests/IntervalTreeCenteredTest.cpp.i"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Socrasthy\Desktop\Z\kini\tests\IntervalTreeCenteredTest.cpp > CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.i
+CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQueryNaiveTest.cpp.i"
+	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumQueryNaiveTest.cpp > CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.i
 
-CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RangeMinimumQueryTest.dir/tests/IntervalTreeCenteredTest.cpp.s"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Socrasthy\Desktop\Z\kini\tests\IntervalTreeCenteredTest.cpp -o CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.s
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\flags.make
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\includes_CXX.rsp
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.obj: ..\tests\RangeMinimumBlockTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumBlockTest.cpp.obj"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.obj -c C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumBlockTest.cpp
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumBlockTest.cpp.i"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumBlockTest.cpp > CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.i
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumBlockTest.cpp.s"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumBlockTest.cpp -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.s
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\flags.make
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\includes_CXX.rsp
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.obj: ..\tests\RangeMinimumHybridTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumHybridTest.cpp.obj"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.obj -c C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumHybridTest.cpp
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumHybridTest.cpp.i"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumHybridTest.cpp > CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.i
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumHybridTest.cpp.s"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumHybridTest.cpp -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.s
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\flags.make
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\includes_CXX.rsp
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.obj: ..\tests\RangeMinimumNaiveTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumNaiveTest.cpp.obj"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.obj -c C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumNaiveTest.cpp
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumNaiveTest.cpp.i"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumNaiveTest.cpp > CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.i
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumNaiveTest.cpp.s"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumNaiveTest.cpp -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.s
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\flags.make
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\includes_CXX.rsp
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.obj: ..\tests\RangeMinimumPreprocessNaiveTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumPreprocessNaiveTest.cpp.obj"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.obj -c C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumPreprocessNaiveTest.cpp
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumPreprocessNaiveTest.cpp.i"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumPreprocessNaiveTest.cpp > CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.i
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumPreprocessNaiveTest.cpp.s"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumPreprocessNaiveTest.cpp -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.s
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\flags.make
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\includes_CXX.rsp
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\tests\RangeMinimumQuery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQuery.cpp.obj"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj -c C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumQuery.cpp
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQuery.cpp.i"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumQuery.cpp > CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.i
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQuery.cpp.s"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumQuery.cpp -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.s
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\flags.make
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\includes_CXX.rsp
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.obj: ..\tests\RangeMinimumSparseTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumSparseTest.cpp.obj"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.obj -c C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumSparseTest.cpp
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumSparseTest.cpp.i"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumSparseTest.cpp > CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.i
-
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumSparseTest.cpp.s"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumSparseTest.cpp -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.s
+CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQueryNaiveTest.cpp.s"
+	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumQueryNaiveTest.cpp -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.s
 
 # Object files for target RangeMinimumQueryTest
 RangeMinimumQueryTest_OBJECTS = \
-"CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.obj" \
-"CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.obj" \
-"CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.obj" \
-"CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.obj" \
-"CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.obj" \
-"CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj" \
-"CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.obj"
+"CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.obj"
 
 # External object files for target RangeMinimumQueryTest
 RangeMinimumQueryTest_EXTERNAL_OBJECTS =
 
-RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\tests\IntervalTreeCenteredTest.cpp.obj
-RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumBlockTest.cpp.obj
-RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumHybridTest.cpp.obj
-RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumNaiveTest.cpp.obj
-RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumPreprocessNaiveTest.cpp.obj
-RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj
-RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumSparseTest.cpp.obj
+RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQueryNaiveTest.cpp.obj
 RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\build.make
 RangeMinimumQueryTest.exe: libs\gtest-1.6.0\libgtest.a
 RangeMinimumQueryTest.exe: libs\gtest-1.6.0\libgtest_main.a
 RangeMinimumQueryTest.exe: libs\gtest-1.6.0\libgtest.a
 RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\linklibs.rsp
 RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable RangeMinimumQueryTest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RangeMinimumQueryTest.exe"
 	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\RangeMinimumQueryTest.dir/objects.a
 	C:\cygwin64\bin\ar.exe cr CMakeFiles\RangeMinimumQueryTest.dir/objects.a @CMakeFiles\RangeMinimumQueryTest.dir\objects1.rsp
 	C:\cygwin64\bin\g++.exe -Wl,--whole-archive CMakeFiles\RangeMinimumQueryTest.dir/objects.a -Wl,--no-whole-archive -o RangeMinimumQueryTest.exe -Wl,--out-implib,libRangeMinimumQueryTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\RangeMinimumQueryTest.dir\linklibs.rsp
