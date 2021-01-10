@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumQuery.cpp" "C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQuery.cpp.obj"
   "C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumQueryNaiveTest.cpp" "C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQueryNaiveTest.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

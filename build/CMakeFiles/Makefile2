@@ -100,12 +100,12 @@ CMakeFiles\RangeMinimumQueryTest.dir\all: libs\gtest-1.6.0\CMakeFiles\gtest.dir\
 CMakeFiles\RangeMinimumQueryTest.dir\all: libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=1,2 "Built target RangeMinimumQueryTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=1,2,3 "Built target RangeMinimumQueryTest"
 .PHONY : CMakeFiles\RangeMinimumQueryTest.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\RangeMinimumQueryTest.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles 0
 .PHONY : CMakeFiles\RangeMinimumQueryTest.dir\rule
@@ -127,7 +127,7 @@ CMakeFiles\RangeMinimumQueryTest.dir\clean:
 libs\gtest-1.6.0\CMakeFiles\gtest.dir\all:
 	$(MAKE) $(MAKESILENT) -f libs\gtest-1.6.0\CMakeFiles\gtest.dir\build.make /nologo -$(MAKEFLAGS) libs\gtest-1.6.0\CMakeFiles\gtest.dir\depend
 	$(MAKE) $(MAKESILENT) -f libs\gtest-1.6.0\CMakeFiles\gtest.dir\build.make /nologo -$(MAKEFLAGS) libs\gtest-1.6.0\CMakeFiles\gtest.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=3,4 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=4,5 "Built target gtest"
 .PHONY : libs\gtest-1.6.0\CMakeFiles\gtest.dir\all
 
 # Build rule for subdir invocation for target.
@@ -154,7 +154,7 @@ libs\gtest-1.6.0\CMakeFiles\gtest.dir\clean:
 libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\all: libs\gtest-1.6.0\CMakeFiles\gtest.dir\all
 	$(MAKE) $(MAKESILENT) -f libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\depend
 	$(MAKE) $(MAKESILENT) -f libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=5,6 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=6,7 "Built target gtest_main"
 .PHONY : libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\all
 
 # Build rule for subdir invocation for target.

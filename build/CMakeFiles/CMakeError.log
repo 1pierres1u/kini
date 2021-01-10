@@ -1,9 +1,9 @@
 Detecting C compiler ABI info failed to compile with the following output:
 Change Dir: C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_c8ac0\fast && 	nmake  -f CMakeFiles\cmTC_c8ac0.dir\build.make /nologo -L                  CMakeFiles\cmTC_c8ac0.dir\build
-Building C object CMakeFiles/cmTC_c8ac0.dir/CMakeCCompilerABI.c.obj
-	C:\cygwin64\bin\gcc.exe   -v -o CMakeFiles\cmTC_c8ac0.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+Run Build Command(s):nmake /nologo cmTC_1abf1\fast && 	nmake  -f CMakeFiles\cmTC_1abf1.dir\build.make /nologo -L                  CMakeFiles\cmTC_1abf1.dir\build
+Building C object CMakeFiles/cmTC_1abf1.dir/CMakeCCompilerABI.c.obj
+	C:\cygwin64\bin\gcc.exe   -v -o CMakeFiles\cmTC_1abf1.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 Target: x86_64-pc-cygwin
@@ -11,8 +11,8 @@ Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0/configure --sr
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_c8ac0.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_c8ac0.dir\CMakeCCompilerABI.c.obj -version -o /cygdrive/c/Users/SOCRAS~1/AppData/Local/Temp/ccmrZNce.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1abf1.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/10/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c -quiet -dumpbase C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_1abf1.dir\CMakeCCompilerABI.c.obj -version -o /cygdrive/c/Users/SOCRAS~1/AppData/Local/Temp/ccKS6DLS.s
 GNU C17 (GCC) version 10.2.0 (x86_64-pc-cygwin)
 	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.1.0, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -51,9 +51,9 @@ Stop.
 Detecting CXX compiler ABI info failed to compile with the following output:
 Change Dir: C:/Users/Socrasthy/Desktop/Z/kini/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_2118a\fast && 	nmake  -f CMakeFiles\cmTC_2118a.dir\build.make /nologo -L                  CMakeFiles\cmTC_2118a.dir\build
-Building CXX object CMakeFiles/cmTC_2118a.dir/CMakeCXXCompilerABI.cpp.o
-	C:\cygwin64\bin\g++.exe   -v -o CMakeFiles\cmTC_2118a.dir\CMakeCXXCompilerABI.cpp.o -c "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"
+Run Build Command(s):nmake /nologo cmTC_d2d4a\fast && 	nmake  -f CMakeFiles\cmTC_d2d4a.dir\build.make /nologo -L                  CMakeFiles\cmTC_d2d4a.dir\build
+Building CXX object CMakeFiles/cmTC_d2d4a.dir/CMakeCXXCompilerABI.cpp.o
+	C:\cygwin64\bin\g++.exe   -v -o CMakeFiles\cmTC_d2d4a.dir\CMakeCXXCompilerABI.cpp.o -c "C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 Target: x86_64-pc-cygwin
@@ -61,8 +61,8 @@ Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0/configure --sr
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2118a.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_2118a.dir\CMakeCXXCompilerABI.cpp.o -version -o /cygdrive/c/Users/SOCRAS~1/AppData/Local/Temp/ccNVBRFT.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_d2d4a.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/10/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase C:\Program Files (x86)\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\cmTC_d2d4a.dir\CMakeCXXCompilerABI.cpp.o -version -o /cygdrive/c/Users/SOCRAS~1/AppData/Local/Temp/ccf9POab.s
 GNU C++14 (GCC) version 10.2.0 (x86_64-pc-cygwin)
 	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.1.0, MPC version 1.1.0, isl version isl-0.22.1-GMP
 

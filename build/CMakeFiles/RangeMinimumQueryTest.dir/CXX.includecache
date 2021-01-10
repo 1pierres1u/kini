@@ -240,6 +240,16 @@ vector
 stdexcept
 -
 
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryBlock.hpp
+RangeMinimumQuery.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuery.hpp
+vector
+-
+cmath
+-
+../src/RangeMinimumQueryBlock.tpp
+C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryBlock.tpp
+
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryNaive.hpp
 RangeMinimumQuery.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuery.hpp
@@ -248,11 +258,15 @@ vector
 ../src/RangeMinimumQueryNaive.tpp
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryNaive.tpp
 
+C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryBlock.tpp
+
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryNaive.tpp
 
-C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumQueryNaiveTest.cpp
+C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumQuery.cpp
 ../include/RangeMinimumQueryNaive.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryNaive.hpp
+../include/RangeMinimumQueryBlock.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryBlock.hpp
 gtest/gtest.h
 C:/Users/Socrasthy/Desktop/Z/kini/tests/gtest/gtest.h
 iostream
