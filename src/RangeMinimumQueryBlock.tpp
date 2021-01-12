@@ -32,23 +32,22 @@ void RangeMinimumQueryBlock<T>::build(const vector<T>& V)
 }
 template<typename T>
 T RangeMinimumQueryBlock<T>::range_minimum(size_t index_a, size_t index_b) const
-{ if(index_a >= elements.size()) throw std::out_of_range("index_a out of bound");
-  if(index_b >= elements.size()) throw std::out_of_range("index_b out of bound");
-  if(index_a > index_b) throw std::out_of_range("index_a > index_b");
+{ check_range(elements,index_a,index_b); 
 
   size_t min_i=index_a;
-  if(block_size==0)
+  if(block_size==0 || (index_b-index_a+1<block_size))
   { min_i = min_(elements, index_a, index_b);
   }
   else
-  { while(index_a < index_b+1)
+  {
+    while(index_a < index_b+1)
     { size_t k = index_a/block_size;
       k = minr(index_b, (k+1)*block_size-1);
       if(is_a_block(index_a,k,block_size))
-      { min_i = minr(min_i,block_minimum[index_a/block_size]);
+      { min_i = minu(min_i,block_minimum[index_a/block_size],elements);
       }
       else
-      { min_i = minr(min_i,min_(elements,index_a,k));
+      { min_i = minu(min_i,min_(elements,index_a,k),elements);
       }
       index_a = k + 1;
     }

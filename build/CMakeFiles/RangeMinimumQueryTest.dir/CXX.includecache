@@ -258,15 +258,29 @@ vector
 ../src/RangeMinimumQueryNaive.tpp
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryNaive.tpp
 
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuerySparse.hpp
+RangeMinimumQuery.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuery.hpp
+cmath
+-
+vector
+-
+../src/RangeMinimumQuerySparse.tpp
+C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQuerySparse.tpp
+
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryBlock.tpp
 
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryNaive.tpp
+
+C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQuerySparse.tpp
 
 C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumQuery.cpp
 ../include/RangeMinimumQueryNaive.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryNaive.hpp
 ../include/RangeMinimumQueryBlock.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryBlock.hpp
+../include/RangeMinimumQuerySparse.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuerySparse.hpp
 gtest/gtest.h
 C:/Users/Socrasthy/Desktop/Z/kini/tests/gtest/gtest.h
 iostream
@@ -274,5 +288,11 @@ iostream
 vector
 -
 numeric
+-
+algorithm
+-
+random
+-
+fstream
 -
 

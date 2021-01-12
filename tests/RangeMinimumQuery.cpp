@@ -1,52 +1,69 @@
 #include "../include/RangeMinimumQueryNaive.hpp"
 #include "../include/RangeMinimumQueryBlock.hpp"
+#include "../include/RangeMinimumQuerySparse.hpp"
 #include "gtest/gtest.h"
 #include <iostream>
 #include <vector>
 #include <numeric>
+#include <algorithm>
+#include <random>
+#include <fstream>
 using namespace std;
 
-
-TEST(RangeMinimumQueryNaive,IDENTICAL_ELEMENTS)
-{ vector<int> V(20,1);
-  RangeMinimumQueryNaive<int> R(V);
-  for(size_t i=0; i<20; i++)
-  { for(size_t j=i; j<20; j++)
-    { EXPECT_EQ(1,R.range_minimum(i,j));
-    }
+void build_vector(vector<int>& V,size_t size, string type="")
+{ V = vector<int>(size,1);
+  if(type=="increasing")
+  { iota(V.begin(),V.end(),0);
   }
-}
-TEST(RangeMinimumQueryNaive,MINIMUM_START_VECTOR)
-{ vector<int> V(20);
-  iota(V.begin(),V.end(),-1);
-  RangeMinimumQueryNaive<int> R;
-  R.build(V);
-  for(size_t i=0; i<20; i++)
-  { for(size_t j=i; j<20; j++)
-    { EXPECT_EQ(V[i],R.range_minimum(i,j));
-    }
+  else if(type=="decreasing")
+  { iota(V.begin(),V.end(),0);
+    reverse(V.begin(),V.end());
+  }
+  else if(type=="shuffled")
+  { iota(V.begin(),V.end(),0);
+    random_device rd;
+    mt19937 g(rd());
+    shuffle(V.begin(),V.end(),g); 
   }
 }
 
-TEST(RangeMinimumQueryBlock,IDENTICAL_ELEMENTS)
-{ vector<int> V(20,1);
-  RangeMinimumQueryBlock<int> R;
-  R.build(V);
-  for(size_t i=0; i<20; i++)
-  { for(size_t j=i; j<20; j++)
-    { EXPECT_EQ(1,R.range_minimum(i,j));
+void rmq_test_vector(const vector<int>& V,RangeMinimumQuery<int>* R)
+{  size_t N = V.size();
+   R->build(V);
+   for(size_t i=0; i<N ; i++)
+    { for(size_t j=i; j<N; j++)
+      { int index_min = min_(V,i,j);
+	EXPECT_EQ(V[index_min],R->range_minimum(i,j));
+      }
     }
-  }
 }
-TEST(RangeMinimumQueryBlock,MINIMUM_START_VECTOR)
-{ vector<int> V(20);
-  iota(V.begin(),V.end(),-1);
-  RangeMinimumQueryBlock<int> R;
-  R.build(V);
-  for(size_t i=0; i<20; i++)
-  { for(size_t j=i; j<20; j++)
-    { EXPECT_EQ(V[i],R.range_minimum(i,j));
-    }
+
+void testing_rmq(RangeMinimumQuery<int>* rmq)
+{ vector<int> V;
+  for(size_t T=1; T<40; T++)
+  { build_vector(V,T);
+    rmq_test_vector(V,rmq);
+    build_vector(V,T,"increasing");
+    rmq_test_vector(V,rmq);
+    build_vector(V,T,"decreasing");
+    rmq_test_vector(V,rmq);
+    build_vector(V,T,"shuffled");
+    rmq_test_vector(V,rmq);
   }
 }
 
+TEST(RangeMinimumQuerySparse,TEST_QUERY)
+{ 
+  RangeMinimumQuery<int>* R = new RangeMinimumQuerySparse<int>();
+  testing_rmq(R);
+}
+TEST(RangeMinimumQueryNaive,TEST_QUERY)
+{ 
+  RangeMinimumQuery<int>* R = new RangeMinimumQueryNaive<int>();
+  testing_rmq(R);
+}
+TEST(RangeMinimumQueryBlock,TEST_QUERY)
+{ 
+  RangeMinimumQuery<int>* R = new RangeMinimumQueryBlock<int>();
+  testing_rmq(R);
+}

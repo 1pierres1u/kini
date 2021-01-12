@@ -7,18 +7,7 @@
 using std::vector;
 #define is_a_block(i,j,b) ((j-i+1==b) && (i%b==0))  
 #define minr(A,B) (A<B?A:B);
-
-template<typename T>
-size_t min_(const vector<T>& V, size_t i, size_t j)
-{ size_t k = i;
-  while(i<j+1)
-  { if(V[k] > V[i])
-	  k = i;
-     i++;
-  }
-  return k;
-}
-
+#define minu(A,B,V) (V[A]>V[B]?B:A)
 
 template<typename T>
 class RangeMinimumQueryBlock : public RangeMinimumQuery<T>
