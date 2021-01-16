@@ -22,9 +22,11 @@ CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\libs\gt
 CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\libs\gtest-1.6.0\include\gtest\internal\gtest-type-util.h
 CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\include\RangeMinimumQuery.hpp
 CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\include\RangeMinimumQueryBlock.hpp
+CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\include\RangeMinimumQueryHybrid.hpp
 CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\include\RangeMinimumQueryNaive.hpp
 CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\include\RangeMinimumQuerySparse.hpp
 CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\src\RangeMinimumQueryBlock.tpp
+CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\src\RangeMinimumQueryHybrid.tpp
 CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\src\RangeMinimumQueryNaive.tpp
 CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\src\RangeMinimumQuerySparse.tpp
 CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\tests\RangeMinimumQuery.cpp

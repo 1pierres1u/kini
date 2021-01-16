@@ -1,6 +1,7 @@
 #include "../include/RangeMinimumQueryNaive.hpp"
 #include "../include/RangeMinimumQueryBlock.hpp"
 #include "../include/RangeMinimumQuerySparse.hpp"
+#include "../include/RangeMinimumQueryHybrid.hpp"
 #include "gtest/gtest.h"
 #include <iostream>
 #include <vector>
@@ -40,7 +41,7 @@ void rmq_test_vector(const vector<int>& V,RangeMinimumQuery<int>* R)
 
 void testing_rmq(RangeMinimumQuery<int>* rmq)
 { vector<int> V;
-  for(size_t T=1; T<40; T++)
+  for(size_t T=1; T<190; T++)
   { build_vector(V,T);
     rmq_test_vector(V,rmq);
     build_vector(V,T,"increasing");
@@ -67,3 +68,11 @@ TEST(RangeMinimumQueryBlock,TEST_QUERY)
   RangeMinimumQuery<int>* R = new RangeMinimumQueryBlock<int>();
   testing_rmq(R);
 }
+
+TEST(RangeMinimumQueryHybrid,TEST_QUERY)
+{ 
+  RangeMinimumQuery<int>* R = new RangeMinimumQueryHybrid<int>();
+  testing_rmq(R);
+}
+
+

@@ -60,8 +60,8 @@
 											},
 											"font": "Arial;13;1",
 											"left": 237,
-											"top": 65,
-											"width": 401.17041015625,
+											"top": 47,
+											"width": 411.17041015625,
 											"height": 13,
 											"text": "IntervalTree"
 										},
@@ -95,8 +95,8 @@
 									],
 									"font": "Arial;13;0",
 									"left": 232,
-									"top": 58,
-									"width": 411.17041015625,
+									"top": 40,
+									"width": 421.17041015625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF2rA/YIn/XTOA="
@@ -122,8 +122,8 @@
 									},
 									"font": "Arial;13;0",
 									"left": 232,
-									"top": 83,
-									"width": 411.17041015625,
+									"top": 65,
+									"width": 421.17041015625,
 									"height": 10
 								},
 								{
@@ -147,8 +147,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 237,
-											"top": 98,
-											"width": 401.17041015625,
+											"top": 80,
+											"width": 411.17041015625,
 											"height": 13,
 											"text": "+find_overlapping_interval(intervals: List, anInterval: interval): void",
 											"horizontalAlignment": 0
@@ -156,8 +156,8 @@
 									],
 									"font": "Arial;13;0",
 									"left": 232,
-									"top": 93,
-									"width": 411.17041015625,
+									"top": 75,
+									"width": 421.17041015625,
 									"height": 23
 								},
 								{
@@ -185,30 +185,12 @@
 									"model": {
 										"$ref": "AAAAAAF2rA/YHH/TaWs="
 									},
-									"subViews": [
-										{
-											"_type": "UMLTemplateParameterView",
-											"_id": "AAAAAAF2rBV6S4CPxHQ=",
-											"_parent": {
-												"$ref": "AAAAAAF2rA/YI3/eHP8="
-											},
-											"model": {
-												"$ref": "AAAAAAF2rBV514CMwIg="
-											},
-											"font": "Arial;13;0",
-											"left": 639.2294921875,
-											"top": 45,
-											"width": 7.94091796875,
-											"height": 13,
-											"text": "T",
-											"horizontalAlignment": 0
-										}
-									],
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 634.2294921875,
 									"top": 40,
 									"width": 17.94091796875,
-									"height": 23
+									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
@@ -273,8 +255,8 @@
 											},
 											"font": "Arial;13;1",
 											"left": 101,
-											"top": 225,
-											"width": 158.607421875,
+											"top": 207,
+											"width": 168.607421875,
 											"height": 13,
 											"text": "IntervalTreeCentered"
 										},
@@ -308,8 +290,8 @@
 									],
 									"font": "Arial;13;0",
 									"left": 96,
-									"top": 218,
-									"width": 168.607421875,
+									"top": 200,
+									"width": 178.607421875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF2rBAPfYAB76c="
@@ -335,8 +317,8 @@
 									},
 									"font": "Arial;13;0",
 									"left": 96,
-									"top": 243,
-									"width": 168.607421875,
+									"top": 225,
+									"width": 178.607421875,
 									"height": 10
 								},
 								{
@@ -360,8 +342,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 101,
-											"top": 258,
-											"width": 158.607421875,
+											"top": 240,
+											"width": 168.607421875,
 											"height": 13,
 											"text": "+IntervalTreeCentered()",
 											"horizontalAlignment": 0
@@ -369,8 +351,8 @@
 									],
 									"font": "Arial;13;0",
 									"left": 96,
-									"top": 253,
-									"width": 168.607421875,
+									"top": 235,
+									"width": 178.607421875,
 									"height": 23
 								},
 								{
@@ -398,30 +380,12 @@
 									"model": {
 										"$ref": "AAAAAAF2rBAPfH/9BTs="
 									},
-									"subViews": [
-										{
-											"_type": "UMLTemplateParameterView",
-											"_id": "AAAAAAF2rBW/vICW0is=",
-											"_parent": {
-												"$ref": "AAAAAAF2rBAPgIAIrYA="
-											},
-											"model": {
-												"$ref": "AAAAAAF2rBW/PoCTPoo="
-											},
-											"font": "Arial;13;0",
-											"left": 259.21923828125,
-											"top": 205,
-											"width": 9.38818359375,
-											"height": 13,
-											"text": "U",
-											"horizontalAlignment": 0
-										}
-									],
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 254.21923828125,
 									"top": 200,
 									"width": 19.38818359375,
-									"height": 23
+									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
@@ -486,8 +450,8 @@
 											},
 											"font": "Arial;13;1",
 											"left": 453,
-											"top": 225,
-											"width": 171.6201171875,
+											"top": 207,
+											"width": 181.6201171875,
 											"height": 13,
 											"text": "IntervalTreeAugmented"
 										},
@@ -521,8 +485,8 @@
 									],
 									"font": "Arial;13;0",
 									"left": 448,
-									"top": 218,
-									"width": 181.6201171875,
+									"top": 200,
+									"width": 191.6201171875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF2rBBWjoAsans="
@@ -548,8 +512,8 @@
 									},
 									"font": "Arial;13;0",
 									"left": 448,
-									"top": 243,
-									"width": 181.6201171875,
+									"top": 225,
+									"width": 191.6201171875,
 									"height": 10
 								},
 								{
@@ -573,8 +537,8 @@
 											},
 											"font": "Arial;13;0",
 											"left": 453,
-											"top": 258,
-											"width": 171.6201171875,
+											"top": 240,
+											"width": 181.6201171875,
 											"height": 13,
 											"text": "+IntervalTreeAugmented()",
 											"horizontalAlignment": 0
@@ -582,8 +546,8 @@
 									],
 									"font": "Arial;13;0",
 									"left": 448,
-									"top": 253,
-									"width": 181.6201171875,
+									"top": 235,
+									"width": 191.6201171875,
 									"height": 23
 								},
 								{
@@ -611,30 +575,12 @@
 									"model": {
 										"$ref": "AAAAAAF2rBBWjYAosPA="
 									},
-									"subViews": [
-										{
-											"_type": "UMLTemplateParameterView",
-											"_id": "AAAAAAF2rBYGSoCe1YA=",
-											"_parent": {
-												"$ref": "AAAAAAF2rBBWjoAzbfA="
-											},
-											"model": {
-												"$ref": "AAAAAAF2rBYF0ICbG0E="
-											},
-											"font": "Arial;13;0",
-											"left": 624.94921875,
-											"top": 205,
-											"width": 8.6708984375,
-											"height": 13,
-											"text": "V",
-											"horizontalAlignment": 0
-										}
-									],
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 619.94921875,
 									"top": 200,
 									"width": 18.6708984375,
-									"height": 23
+									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
@@ -856,18 +802,6 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "IntervalTree",
-					"templateParameters": [
-						{
-							"_type": "UMLTemplateParameter",
-							"_id": "AAAAAAF2rBV514CMwIg=",
-							"_parent": {
-								"$ref": "AAAAAAF2rA/YHH/TaWs="
-							},
-							"name": "T",
-							"parameterType": "",
-							"defaultValue": ""
-						}
-					],
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -930,18 +864,6 @@
 							}
 						}
 					],
-					"templateParameters": [
-						{
-							"_type": "UMLTemplateParameter",
-							"_id": "AAAAAAF2rBW/PoCTPoo=",
-							"_parent": {
-								"$ref": "AAAAAAF2rBAPfH/9BTs="
-							},
-							"name": "U",
-							"parameterType": "",
-							"defaultValue": ""
-						}
-					],
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -973,18 +895,6 @@
 							"target": {
 								"$ref": "AAAAAAF2rA/YHH/TaWs="
 							}
-						}
-					],
-					"templateParameters": [
-						{
-							"_type": "UMLTemplateParameter",
-							"_id": "AAAAAAF2rBYF0ICbG0E=",
-							"_parent": {
-								"$ref": "AAAAAAF2rBBWjYAosPA="
-							},
-							"name": "V",
-							"parameterType": "",
-							"defaultValue": ""
 						}
 					],
 					"operations": [

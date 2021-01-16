@@ -3,8 +3,6 @@
 
 #include "RangeMinimumQuery.hpp"
 #include <cmath>
-#include <vector>
-using std::vector;
 
 
 template<typename T>

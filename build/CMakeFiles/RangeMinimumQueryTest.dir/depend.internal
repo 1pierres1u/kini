@@ -23,9 +23,11 @@ CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQuery.cpp.obj
  ../libs/gtest-1.6.0/include/gtest/internal/gtest-type-util.h
  C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuery.hpp
  C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryBlock.hpp
+ C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryHybrid.hpp
  C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryNaive.hpp
  C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuerySparse.hpp
  C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryBlock.tpp
+ C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryHybrid.tpp
  C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryNaive.tpp
  C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQuerySparse.tpp
  C:/Users/Socrasthy/Desktop/Z/kini/tests/RangeMinimumQuery.cpp

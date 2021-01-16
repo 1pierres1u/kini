@@ -243,18 +243,30 @@ stdexcept
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryBlock.hpp
 RangeMinimumQuery.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuery.hpp
-vector
--
 cmath
 -
 ../src/RangeMinimumQueryBlock.tpp
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryBlock.tpp
 
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryHybrid.hpp
+RangeMinimumQuery.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuery.hpp
+RangeMinimumQueryNaive.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryNaive.hpp
+RangeMinimumQuerySparse.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuerySparse.hpp
+RangeMinimumQueryBlock.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryBlock.hpp
+memory
+C:/Users/Socrasthy/Desktop/Z/kini/include/memory
+cmath
+-
+../src/RangeMinimumQueryHybrid.tpp
+C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryHybrid.tpp
+
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryNaive.hpp
 RangeMinimumQuery.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuery.hpp
-vector
--
 ../src/RangeMinimumQueryNaive.tpp
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryNaive.tpp
 
@@ -263,12 +275,12 @@ RangeMinimumQuery.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuery.hpp
 cmath
 -
-vector
--
 ../src/RangeMinimumQuerySparse.tpp
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQuerySparse.tpp
 
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryBlock.tpp
+
+C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryHybrid.tpp
 
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryNaive.tpp
 
@@ -281,6 +293,8 @@ C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryNaive.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryBlock.hpp
 ../include/RangeMinimumQuerySparse.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuerySparse.hpp
+../include/RangeMinimumQueryHybrid.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryHybrid.hpp
 gtest/gtest.h
 C:/Users/Socrasthy/Desktop/Z/kini/tests/gtest/gtest.h
 iostream

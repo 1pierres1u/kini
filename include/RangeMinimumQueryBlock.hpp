@@ -2,9 +2,7 @@
 #define _RANGE_MINIMUM_QUERY_BLOCK_HPP
 
 #include "RangeMinimumQuery.hpp"
-#include <vector>
 #include <cmath>
-using std::vector;
 #define is_a_block(i,j,b) ((j-i+1==b) && (i%b==0))  
 #define minr(A,B) (A<B?A:B);
 #define minu(A,B,V) (V[A]>V[B]?B:A)

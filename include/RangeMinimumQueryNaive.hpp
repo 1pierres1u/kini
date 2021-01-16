@@ -2,9 +2,6 @@
 #define _RANGE_MINIMUM_QUERY_NAIVE_HPP
 
 #include "RangeMinimumQuery.hpp"
-#include <vector>
-using std::vector;
-
 
 template<typename T>
 class RangeMinimumQueryNaive : public RangeMinimumQuery<T>
