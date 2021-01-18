@@ -19,6 +19,7 @@ public:
 	explicit RangeMinimumQueryBlock(const vector<T>& V);
 	void build(const vector<T>& V);
 	T range_minimum(size_t index_a, size_t index_b) const;
+	size_t range_minimum_position(size_t index_a,size_t index_b)const;
 };
 #include "../src/RangeMinimumQueryBlock.tpp"
 #endif 

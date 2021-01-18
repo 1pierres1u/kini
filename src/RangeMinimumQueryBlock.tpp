@@ -32,6 +32,10 @@ void RangeMinimumQueryBlock<T>::build(const vector<T>& V)
 }
 template<typename T>
 T RangeMinimumQueryBlock<T>::range_minimum(size_t index_a, size_t index_b) const
+{ return elements[range_minimum_position(index_a,index_b)];
+}
+template<typename T>
+size_t RangeMinimumQueryBlock<T>::range_minimum_position(size_t index_a, size_t index_b) const
 { check_range(elements,index_a,index_b); 
 
   size_t min_i=index_a;
@@ -52,5 +56,5 @@ T RangeMinimumQueryBlock<T>::range_minimum(size_t index_a, size_t index_b) const
       index_a = k + 1;
     }
   }
- return elements[min_i];
+ return min_i;
 }

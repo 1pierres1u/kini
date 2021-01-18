@@ -45,6 +45,10 @@ void RangeMinimumQuerySparse<T>::build(const vector<T>& V)
 }
 template<typename T>
 T RangeMinimumQuerySparse<T>::range_minimum(size_t index_a, size_t index_b)const
+{ return elements[range_minimum_position(index_a,index_b)];
+}
+template<typename T>
+size_t RangeMinimumQuerySparse<T>::range_minimum_position(size_t index_a, size_t index_b)const
 { check_range(elements, index_a, index_b);
 
   if(index_a != index_b )
@@ -60,6 +64,5 @@ T RangeMinimumQuerySparse<T>::range_minimum(size_t index_a, size_t index_b)const
     { index_a = min_(elements,index_a,index_b);
     }
   }
-  return elements[index_a];
+  return index_a;
 }
-

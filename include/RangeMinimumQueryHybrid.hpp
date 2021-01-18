@@ -28,14 +28,22 @@ private:
 	vector<T> elements;
 	//The summary block will be at the end of the vector
 	vector<unique_ptr<RangeMinimumQuery<T>>> rmq_blocks;
+	//
+	//save the position of the elements from the original vector.
+	//This allows to implement range_minimum_position.
+	//The index is the block number and the value is the position 
+	//of the minimum in the given block. 
+	 vector<size_t> summary_position;
 
 protected:
-	void find_block_size();
+	inline void find_block_size();
 public:
 	RangeMinimumQueryHybrid();
 	explicit RangeMinimumQueryHybrid(const vector<T>& V);
 	void build(const vector<T>& V);
 	T range_minimum(size_t index_a, size_t index_b)const;
+        size_t range_minimum_position(size_t index_a,size_t index_b)const;
+
 };
 #include "../src/RangeMinimumQueryHybrid.tpp"
 #endif 

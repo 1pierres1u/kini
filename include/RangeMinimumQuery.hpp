@@ -31,6 +31,7 @@ class RangeMinimumQuery
 	public:
 		virtual void build(const vector<T>& V)=0;
 		virtual T range_minimum(size_t index_a, size_t index_b)const=0;
+		virtual size_t range_minimum_position(size_t index_a, size_t index_b)const=0;
 
 };
 #endif
