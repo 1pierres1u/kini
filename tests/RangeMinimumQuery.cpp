@@ -2,6 +2,7 @@
 #include "../include/RangeMinimumQueryBlock.hpp"
 #include "../include/RangeMinimumQuerySparse.hpp"
 #include "../include/RangeMinimumQueryHybrid.hpp"
+#include "../include/RangeMinimumQueryFischer.hpp"
 #include "gtest/gtest.h"
 #include <iostream>
 #include <vector>
@@ -75,4 +76,9 @@ TEST(RangeMinimumQueryHybrid,TEST_QUERY)
   testing_rmq(R);
 }
 
+TEST(RangeMinimumQueryFischer,TEST_QUERY)
+{ 
+  RangeMinimumQuery<int>* R = new RangeMinimumQueryFischer<int>();
+  testing_rmq(R);
+}
 

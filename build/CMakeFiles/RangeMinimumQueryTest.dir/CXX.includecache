@@ -248,6 +248,16 @@ cmath
 ../src/RangeMinimumQueryBlock.tpp
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryBlock.tpp
 
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryFischer.hpp
+RangeMinimumQueryHybrid.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryHybrid.hpp
+stack
+-
+map
+-
+../src/RangeMinimumQueryFischer.tpp
+C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryFischer.tpp
+
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryHybrid.hpp
 RangeMinimumQuery.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuery.hpp
@@ -280,6 +290,8 @@ C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQuerySparse.tpp
 
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryBlock.tpp
 
+C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryFischer.tpp
+
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryHybrid.tpp
 
 C:/Users/Socrasthy/Desktop/Z/kini/src/RangeMinimumQueryNaive.tpp
@@ -295,6 +307,8 @@ C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryBlock.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQuerySparse.hpp
 ../include/RangeMinimumQueryHybrid.hpp
 C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryHybrid.hpp
+../include/RangeMinimumQueryFischer.hpp
+C:/Users/Socrasthy/Desktop/Z/kini/include/RangeMinimumQueryFischer.hpp
 gtest/gtest.h
 C:/Users/Socrasthy/Desktop/Z/kini/tests/gtest/gtest.h
 iostream

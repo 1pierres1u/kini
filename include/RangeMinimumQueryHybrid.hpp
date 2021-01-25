@@ -21,7 +21,7 @@ enum RMQType
 template<typename T>
 class RangeMinimumQueryHybrid : public RangeMinimumQuery<T>
 {
-private:
+protected:
 	const int MIN_SIZE_VECTOR = 40;
 	size_t block_size;
 	size_t no_elem;
@@ -33,10 +33,9 @@ private:
 	//This allows to implement range_minimum_position.
 	//The index is the block number and the value is the position 
 	//of the minimum in the given block. 
-	 vector<size_t> summary_position;
-
-protected:
+	vector<size_t> summary_position;
 	inline void find_block_size();
+
 public:
 	RangeMinimumQueryHybrid();
 	explicit RangeMinimumQueryHybrid(const vector<T>& V);

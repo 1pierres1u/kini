@@ -12,6 +12,7 @@ void RangeMinimumQueryHybrid<T>::build(const vector<T>& V)
    elements = V;
    rmq_blocks.clear();
    summary_position.clear();
+   block_size=0;
    if(no_elem >= MIN_SIZE_VECTOR)
    {  
      find_block_size();

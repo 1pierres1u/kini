@@ -172,16 +172,16 @@ gtest_main\fast:
 	cd C:\Users\Socrasthy\Desktop\Z\kini\build\libs\gtest-1.6.0
 .PHONY : gtest_main\fast
 
-src\gtest-all.obj: src\gtest-all.cc.obj
+src\gtest-all.o: src\gtest-all.cc.o
 
-.PHONY : src\gtest-all.obj
+.PHONY : src\gtest-all.o
 
 # target to build an object file
-src\gtest-all.cc.obj:
+src\gtest-all.cc.o:
 	cd C:\Users\Socrasthy\Desktop\Z\kini\build
-	$(MAKE) $(MAKESILENT) -f libs\gtest-1.6.0\CMakeFiles\gtest.dir\build.make /nologo -$(MAKEFLAGS) libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.obj
+	$(MAKE) $(MAKESILENT) -f libs\gtest-1.6.0\CMakeFiles\gtest.dir\build.make /nologo -$(MAKEFLAGS) libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.o
 	cd C:\Users\Socrasthy\Desktop\Z\kini\build\libs\gtest-1.6.0
-.PHONY : src\gtest-all.cc.obj
+.PHONY : src\gtest-all.cc.o
 
 src\gtest-all.i: src\gtest-all.cc.i
 
@@ -205,16 +205,16 @@ src\gtest-all.cc.s:
 	cd C:\Users\Socrasthy\Desktop\Z\kini\build\libs\gtest-1.6.0
 .PHONY : src\gtest-all.cc.s
 
-src\gtest_main.obj: src\gtest_main.cc.obj
+src\gtest_main.o: src\gtest_main.cc.o
 
-.PHONY : src\gtest_main.obj
+.PHONY : src\gtest_main.o
 
 # target to build an object file
-src\gtest_main.cc.obj:
+src\gtest_main.cc.o:
 	cd C:\Users\Socrasthy\Desktop\Z\kini\build
-	$(MAKE) $(MAKESILENT) -f libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj
+	$(MAKE) $(MAKESILENT) -f libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\src\gtest_main.cc.o
 	cd C:\Users\Socrasthy\Desktop\Z\kini\build\libs\gtest-1.6.0
-.PHONY : src\gtest_main.cc.obj
+.PHONY : src\gtest_main.cc.o
 
 src\gtest_main.i: src\gtest_main.cc.i
 
@@ -249,10 +249,10 @@ help:
 	@echo ... test
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... src/gtest-all.obj
+	@echo ... src/gtest-all.o
 	@echo ... src/gtest-all.i
 	@echo ... src/gtest-all.s
-	@echo ... src/gtest_main.obj
+	@echo ... src/gtest_main.o
 	@echo ... src/gtest_main.i
 	@echo ... src/gtest_main.s
 .PHONY : help

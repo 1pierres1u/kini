@@ -60,11 +60,11 @@ include CMakeFiles\RangeMinimumQueryTest.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\RangeMinimumQueryTest.dir\flags.make
 
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\flags.make
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: CMakeFiles\RangeMinimumQueryTest.dir\includes_CXX.rsp
-CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj: ..\tests\RangeMinimumQuery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQuery.cpp.obj"
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj -c C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumQuery.cpp
+CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.o: CMakeFiles\RangeMinimumQueryTest.dir\flags.make
+CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.o: CMakeFiles\RangeMinimumQueryTest.dir\includes_CXX.rsp
+CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.o: ..\tests\RangeMinimumQuery.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQuery.cpp.o"
+	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.o -c C:\Users\Socrasthy\Desktop\Z\kini\tests\RangeMinimumQuery.cpp
 
 CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQuery.cpp.i"
@@ -76,12 +76,12 @@ CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.s: cmake_force
 
 # Object files for target RangeMinimumQueryTest
 RangeMinimumQueryTest_OBJECTS = \
-"CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj"
+"CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.o"
 
 # External object files for target RangeMinimumQueryTest
 RangeMinimumQueryTest_EXTERNAL_OBJECTS =
 
-RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj
+RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.o
 RangeMinimumQueryTest.exe: CMakeFiles\RangeMinimumQueryTest.dir\build.make
 RangeMinimumQueryTest.exe: libs\gtest-1.6.0\libgtest.a
 RangeMinimumQueryTest.exe: libs\gtest-1.6.0\libgtest_main.a

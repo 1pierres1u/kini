@@ -60,12 +60,12 @@ include libs\gtest-1.6.0\CMakeFiles\gtest.dir\progress.make
 # Include the compile flags for this target's objects.
 include libs\gtest-1.6.0\CMakeFiles\gtest.dir\flags.make
 
-libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.obj: libs\gtest-1.6.0\CMakeFiles\gtest.dir\flags.make
-libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.obj: libs\gtest-1.6.0\CMakeFiles\gtest.dir\includes_CXX.rsp
-libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.obj: ..\libs\gtest-1.6.0\src\gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/gtest-1.6.0/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.o: libs\gtest-1.6.0\CMakeFiles\gtest.dir\flags.make
+libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.o: libs\gtest-1.6.0\CMakeFiles\gtest.dir\includes_CXX.rsp
+libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.o: ..\libs\gtest-1.6.0\src\gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/gtest-1.6.0/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
 	cd C:\Users\Socrasthy\Desktop\Z\kini\build\libs\gtest-1.6.0
-	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c C:\Users\Socrasthy\Desktop\Z\kini\libs\gtest-1.6.0\src\gtest-all.cc
+	C:\cygwin64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gtest.dir\src\gtest-all.cc.o -c C:\Users\Socrasthy\Desktop\Z\kini\libs\gtest-1.6.0\src\gtest-all.cc
 	cd C:\Users\Socrasthy\Desktop\Z\kini\build
 
 libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.i: cmake_force
@@ -82,12 +82,12 @@ libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.s: cmake_force
 
 # Object files for target gtest
 gtest_OBJECTS = \
-"CMakeFiles\gtest.dir\src\gtest-all.cc.obj"
+"CMakeFiles\gtest.dir\src\gtest-all.cc.o"
 
 # External object files for target gtest
 gtest_EXTERNAL_OBJECTS =
 
-libs\gtest-1.6.0\libgtest.a: libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.obj
+libs\gtest-1.6.0\libgtest.a: libs\gtest-1.6.0\CMakeFiles\gtest.dir\src\gtest-all.cc.o
 libs\gtest-1.6.0\libgtest.a: libs\gtest-1.6.0\CMakeFiles\gtest.dir\build.make
 libs\gtest-1.6.0\libgtest.a: libs\gtest-1.6.0\CMakeFiles\gtest.dir\link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Socrasthy\Desktop\Z\kini\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
