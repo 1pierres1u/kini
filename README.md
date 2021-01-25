@@ -12,6 +12,8 @@ The data structures implemented are:
 
 ## Usage
 ```cpp
+  #include "../include/RangeMinimumQueryHybrid.hpp"
+  using namespace std;
   int main()
   { size_t N,start,end;
     cout << "vector size: ";
@@ -20,7 +22,7 @@ The data structures implemented are:
     cout << "Enter elements\n";
     for(auto& x:V)
      cin >> x;
-    RangeMinimumHybrid rmq;
+    RangeMinimumQueryHybrid<int> rmq;
     rmq.build(V);
   
     cout << "Enter\nrange start: ";
