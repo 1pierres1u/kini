@@ -25,7 +25,6 @@ protected:
 	const int MIN_SIZE_VECTOR = 40;
 	size_t block_size;
 	size_t no_elem;
-	vector<T> elements;
 	//The summary block will be at the end of the vector
 	vector<unique_ptr<RangeMinimumQuery<T>>> rmq_blocks;
 	//
@@ -40,7 +39,6 @@ public:
 	RangeMinimumQueryHybrid();
 	explicit RangeMinimumQueryHybrid(const vector<T>& V);
 	void build(const vector<T>& V);
-	T range_minimum(size_t index_a, size_t index_b)const;
         size_t range_minimum_position(size_t index_a,size_t index_b)const;
 
 };

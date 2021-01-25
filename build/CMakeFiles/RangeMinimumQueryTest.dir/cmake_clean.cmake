@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQuery.cpp.o"
+  "CMakeFiles/RangeMinimumQueryTest.dir/tests/RangeMinimumQuery.cpp.obj"
   "RangeMinimumQueryTest.exe"
   "RangeMinimumQueryTest.exe.manifest"
   "RangeMinimumQueryTest.pdb"

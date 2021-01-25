@@ -9,7 +9,7 @@ RangeMinimumQueryHybrid<T>::RangeMinimumQueryHybrid(const vector<T>& V)
 template<typename T>
 void RangeMinimumQueryHybrid<T>::build(const vector<T>& V)
 {  no_elem = V.size();
-   elements = V;
+   this->elements = V;
    rmq_blocks.clear();
    summary_position.clear();
    block_size=0;
@@ -37,10 +37,6 @@ void RangeMinimumQueryHybrid<T>::build(const vector<T>& V)
    }
 }
 template<typename T>
-T RangeMinimumQueryHybrid<T>::range_minimum(size_t index_a, size_t index_b)const
-{ return elements[range_minimum_position(index_a,index_b)]; 
-}
-template<typename T>
 void RangeMinimumQueryHybrid<T>::find_block_size()
 { size_t lg = log2(no_elem)/4;
   block_size = (lg>5?lg:lg*4); 
@@ -65,17 +61,17 @@ size_t RangeMinimumQueryHybrid<T>::range_minimum_position(size_t index_a, size_t
     else
     { size_t ba = block_a*block_size + rmq_blocks[block_a]->range_minimum_position(index_a%block_size,end_a%block_size);
       size_t bb = block_b*block_size + rmq_blocks[block_b]->range_minimum_position(start_b%block_size,index_b%block_size);
-      minp = minu(ba,bb,elements);
+      minp = minu(ba,bb,this->elements);
 
       if(block_b-block_a>1)
       { size_t Q =  rmq_blocks[rmq_blocks.size()-1]->range_minimum_position(block_a+1,block_b-1);
         Q = Q*block_size + summary_position[Q];
-        minp = minu(minp, Q,elements);
+        minp = minu(minp, Q,this->elements);
       } 
     }
   }
   else
-  { minp = min_(elements,index_a,index_b);
+  { minp = min_(this->elements,index_a,index_b);
   }
   return minp;
 }

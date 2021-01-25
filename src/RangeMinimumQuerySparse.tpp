@@ -1,4 +1,3 @@
-
 template<typename T>
 RangeMinimumQuerySparse<T>::RangeMinimumQuerySparse()
 {
@@ -10,14 +9,14 @@ RangeMinimumQuerySparse<T>::RangeMinimumQuerySparse(const vector<T>& V)
 template<typename T>
 void RangeMinimumQuerySparse<T>::build(const vector<T>& V)
 { 
-  elements = V;
+  this->elements = V;
   sparseTable.clear();
   //
   //size restriction on building the sparse table
-  if(elements.size()<MIN_SIZE_VECTOR)
+  if(this->elements.size()<MIN_SIZE_VECTOR)
       return;
   //
-  size_t N = elements.size();
+  size_t N = this->elements.size();
   //add vectors
    for(size_t i=0; i < N; i++)
 	sparseTable.push_back(vector<size_t>(floor(log2(N-i))+1));
@@ -33,7 +32,7 @@ void RangeMinimumQuerySparse<T>::build(const vector<T>& V)
     { size_t a = sparseTable[i][j-1];
       size_t b = sparseTable[i+k][j-1];
       
-      if(elements[a] > elements[b])
+      if(this->elements[a] > this->elements[b])
       { sparseTable[i][j] = sparseTable[i+k][j-1];
       }
       else
@@ -44,24 +43,20 @@ void RangeMinimumQuerySparse<T>::build(const vector<T>& V)
   }
 }
 template<typename T>
-T RangeMinimumQuerySparse<T>::range_minimum(size_t index_a, size_t index_b)const
-{ return elements[range_minimum_position(index_a,index_b)];
-}
-template<typename T>
 size_t RangeMinimumQuerySparse<T>::range_minimum_position(size_t index_a, size_t index_b)const
-{ check_range(elements, index_a, index_b);
+{ check_range(this->elements, index_a, index_b);
 
   if(index_a != index_b )
-  { if(elements.size()>=MIN_SIZE_VECTOR)
+  { if(this->elements.size()>=MIN_SIZE_VECTOR)
     {  
 	    size_t k = floor(log2(index_b-index_a+1));
 	    size_t L = (1 << k);
 	    index_a = sparseTable[index_a][k];
 	    index_b = sparseTable[index_b - L + 1][k];
-	    index_a = (elements[index_a]>elements[index_b]?index_b:index_a);
+	    index_a = (this->elements[index_a]>this->elements[index_b]?index_b:index_a);
     }
     else
-    { index_a = min_(elements,index_a,index_b);
+    { index_a = min_(this->elements,index_a,index_b);
     }
   }
   return index_a;

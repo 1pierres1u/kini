@@ -28,9 +28,13 @@ size_t min_(const vector<T>& V, size_t i, size_t j)
 template<typename T>
 class RangeMinimumQuery 
 { 	
+        protected:
+		 vector<T> elements;
 	public:
 		virtual void build(const vector<T>& V)=0;
-		virtual T range_minimum(size_t index_a, size_t index_b)const=0;
+		T range_minimum(size_t index_a, size_t index_b)const
+		{return elements[range_minimum_position(index_a,index_b)];
+		}
 		virtual size_t range_minimum_position(size_t index_a, size_t index_b)const=0;
 
 };

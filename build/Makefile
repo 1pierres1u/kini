@@ -163,14 +163,14 @@ gtest_main\fast:
 	$(MAKE) $(MAKESILENT) -f libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) libs\gtest-1.6.0\CMakeFiles\gtest_main.dir\build
 .PHONY : gtest_main\fast
 
-tests\RangeMinimumQuery.o: tests\RangeMinimumQuery.cpp.o
+tests\RangeMinimumQuery.obj: tests\RangeMinimumQuery.cpp.obj
 
-.PHONY : tests\RangeMinimumQuery.o
+.PHONY : tests\RangeMinimumQuery.obj
 
 # target to build an object file
-tests\RangeMinimumQuery.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.o
-.PHONY : tests\RangeMinimumQuery.cpp.o
+tests\RangeMinimumQuery.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeMinimumQueryTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\RangeMinimumQueryTest.dir\tests\RangeMinimumQuery.cpp.obj
+.PHONY : tests\RangeMinimumQuery.cpp.obj
 
 tests\RangeMinimumQuery.i: tests\RangeMinimumQuery.cpp.i
 
@@ -202,7 +202,7 @@ help:
 	@echo ... RangeMinimumQueryTest
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... tests/RangeMinimumQuery.o
+	@echo ... tests/RangeMinimumQuery.obj
 	@echo ... tests/RangeMinimumQuery.i
 	@echo ... tests/RangeMinimumQuery.s
 .PHONY : help

@@ -12,13 +12,11 @@ private:
 	//Build sparse table only if size of vector
 	//is greater or equal to MIN_SIZE_VECTOR
         const int MIN_SIZE_VECTOR = 8; 
-	vector<T> elements;
 	vector<vector<size_t>> sparseTable;
 public:
 	RangeMinimumQuerySparse();
 	explicit RangeMinimumQuerySparse(const vector<T>& V);
 	void build(const vector<T>& V);
-	T range_minimum(size_t index_a,size_t index_b) const;
         size_t range_minimum_position(size_t index_a,size_t index_b)const;
 };
 #include "../src/RangeMinimumQuerySparse.tpp"

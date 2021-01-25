@@ -11,14 +11,12 @@ template<typename T>
 class RangeMinimumQueryBlock : public RangeMinimumQuery<T>
 {
 private:
-	vector<T> elements;
 	vector<size_t> block_minimum;
 	size_t block_size;
 public:
 	RangeMinimumQueryBlock();
 	explicit RangeMinimumQueryBlock(const vector<T>& V);
 	void build(const vector<T>& V);
-	T range_minimum(size_t index_a, size_t index_b) const;
 	size_t range_minimum_position(size_t index_a,size_t index_b)const;
 };
 #include "../src/RangeMinimumQueryBlock.tpp"
