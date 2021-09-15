@@ -1,8 +1,4 @@
-#include "../include/RangeMinimumQueryNaive.hpp"
-#include "../include/RangeMinimumQueryBlock.hpp"
-#include "../include/RangeMinimumQuerySparse.hpp"
-#include "../include/RangeMinimumQueryHybrid.hpp"
-#include "../include/RangeMinimumQueryFischer.hpp"
+#include "RangeMinimumQueryNaive.hpp"
 #include "gtest/gtest.h"
 #include <iostream>
 #include <vector>
@@ -10,6 +6,8 @@
 #include <algorithm>
 #include <random>
 #include <fstream>
+#include <memory>
+
 using namespace std;
 
 void build_vector(vector<int>& V,size_t size, string type="")
@@ -29,18 +27,17 @@ void build_vector(vector<int>& V,size_t size, string type="")
   }
 }
 
-void rmq_test_vector(const vector<int>& V,RangeMinimumQuery<int>* R)
-{  size_t N = V.size();
-   R->build(V);
-   for(size_t i=0; i<N ; i++)
-    { for(size_t j=i; j<N; j++)
-      { int index_min = min_(V,i,j);
-	EXPECT_EQ(V[index_min],R->range_minimum(i,j));
+void rmq_test_vector(const vector<int>& V,shared_ptr<RangeMinimumQuery<int>> R){  
+   size_t N = V.size();
+   R->preprocess(make_shared<const vector<int>>(V));
+   for(size_t i=0; i<N ; i++){ 
+	   for(size_t j=i; j<N; j++){ 
+		EXPECT_EQ(R->min(i,j),R->find_range_minimum(i,j));
       }
-    }
+   }
 }
 
-void testing_rmq(RangeMinimumQuery<int>* rmq)
+void testing_rmq(shared_ptr<RangeMinimumQuery<int>> rmq)
 { vector<int> V;
   for(size_t T=1; T<190; T++)
   { build_vector(V,T);
@@ -53,32 +50,8 @@ void testing_rmq(RangeMinimumQuery<int>* rmq)
     rmq_test_vector(V,rmq);
   }
 }
-
-TEST(RangeMinimumQuerySparse,TEST_QUERY)
-{ 
-  RangeMinimumQuery<int>* R = new RangeMinimumQuerySparse<int>();
-  testing_rmq(R);
-}
 TEST(RangeMinimumQueryNaive,TEST_QUERY)
 { 
-  RangeMinimumQuery<int>* R = new RangeMinimumQueryNaive<int>();
+  shared_ptr<RangeMinimumQuery<int>> R = make_shared<RangeMinimumQueryNaive<int>>();
   testing_rmq(R);
 }
-TEST(RangeMinimumQueryBlock,TEST_QUERY)
-{ 
-  RangeMinimumQuery<int>* R = new RangeMinimumQueryBlock<int>();
-  testing_rmq(R);
-}
-
-TEST(RangeMinimumQueryHybrid,TEST_QUERY)
-{ 
-  RangeMinimumQuery<int>* R = new RangeMinimumQueryHybrid<int>();
-  testing_rmq(R);
-}
-
-TEST(RangeMinimumQueryFischer,TEST_QUERY)
-{ 
-  RangeMinimumQuery<int>* R = new RangeMinimumQueryFischer<int>();
-  testing_rmq(R);
-}
-
