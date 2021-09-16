@@ -1,5 +1,5 @@
-#ifndef PRANGE_MINIMUM_QUERY_NAIVE_HPP
-#define PRANGE_MINIMUM_QUERY_NAIVE_HPP
+#ifndef RANGE_MINIMUM_QUERY_NAIVE_HPP
+#define RANGE_MINIMUM_QUERY_NAIVE_HPP
 
 #include "RangeMinimumQuery.hpp"
 
@@ -20,13 +20,8 @@ class PRangeMinimumQueryNaive : public PRangeMinimumQuery<T>
 			return min(index_a,index_b);
 		}
 };
-#endif
 
 
-#ifndef RANGE_MINIMUM_QUERY_NAIVE_HPP
-#define RANGE_MINIMUM_QUERY_NAIVE_HPP
-
-#include "RangeMinimumQuery.hpp"
 
 template<typename T>
 class RangeMinimumQueryNaive : public RangeMinimumQuery<T>

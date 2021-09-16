@@ -1,4 +1,5 @@
 #include "RangeMinimumQueryNaive.hpp"
+#include "RangeMinimumQueryBlock.hpp"
 #include "gtest/gtest.h"
 #include <iostream>
 #include <vector>
@@ -10,14 +11,15 @@
 
 using namespace std;
 
+
 //TEST_TYPE can take the values "unique" or "thorough".
 //"unique"   means only the range minimum over the whole vector
 //"thorough" means all the ranges are tested
 string TEST_TYPE="unique";
 
-
 void build_vector(vector<int>& V,size_t size, string type="")
-{ V = vector<int>(size,1);
+{ srand(0); //all the shuffled vectors will be the same
+  V = vector<int>(size,1);
   if(type=="increasing")
   { iota(V.begin(),V.end(),0);
   }
@@ -26,10 +28,10 @@ void build_vector(vector<int>& V,size_t size, string type="")
     reverse(V.begin(),V.end());
   }
   else if(type=="shuffled")
-  { iota(V.begin(),V.end(),0);
-    random_device rd;
-    mt19937 g(rd());
-    shuffle(V.begin(),V.end(),g); 
+  { 
+    size_t N = V.size();
+    for(auto& x:V)
+  	x = rand()%N;	    
   }
 }
 
@@ -88,16 +90,30 @@ void testing_rmq(size_t vector_min_size, size_t vector_max_size,shared_ptr<Range
     rmq_test_vector(V,rmq);
   }
 }
+/*******************************************/
+/* RANGEMINIMUMQUERYNAIVE                  */
+/*******************************************/
 //
-TEST(RangeMinimumQueryNaive,vector_size_10_to_100_thorough_test)
+TEST(RangeMinimumQueryNaive,vector_size_1_to_100_thorough_test)
 { TEST_TYPE = "thorough";
   shared_ptr<RangeMinimumQuery<int>> R = make_shared<RangeMinimumQueryNaive<int>>();
-  testing_rmq(10,100,R);
+  testing_rmq(1,100,R);
 }
-TEST(PRangeMinimumQueryNaive,vector_size_10_to_100_thorough_test)
+TEST(PRangeMinimumQueryNaive,vector_size_1_to_100_thorough_test)
 { TEST_TYPE = "thorough";
   shared_ptr<PRangeMinimumQuery<int>> R = make_shared<PRangeMinimumQueryNaive<int>>();
-  p_testing_rmq(10,100,R);
+  p_testing_rmq(1,100,R);
+}
+//
+TEST(RangeMinimumQueryNaive,vector_size_200_to_300_thorough_test)
+{ TEST_TYPE = "thorough";
+  shared_ptr<RangeMinimumQuery<int>> R = make_shared<RangeMinimumQueryNaive<int>>();
+  testing_rmq(200,300,R);
+}
+TEST(PRangeMinimumQueryNaive,vector_size_200_to_300_thorough_test)
+{ TEST_TYPE = "thorough";
+  shared_ptr<PRangeMinimumQuery<int>> R = make_shared<PRangeMinimumQueryNaive<int>>();
+  p_testing_rmq(200,300,R);
 }
 //
 TEST(RangeMinimumQueryNaive,vector_size_10_to_100_unique_test)
@@ -119,5 +135,53 @@ TEST(RangeMinimumQueryNaive,vector_size_1500000_to_1500050_unique_test)
 TEST(PRangeMinimumQueryNaive,vector_size_1500000_to_1500050_unique_test)
 { TEST_TYPE = "unique";
   shared_ptr<PRangeMinimumQuery<int>> R = make_shared<PRangeMinimumQueryNaive<int>>();
+  p_testing_rmq(1500000,1500050,R);
+}
+
+/*******************************************/
+/* RANGEMINIMUMQUERYBLOCK                  */
+/*******************************************/
+//
+TEST(RangeMinimumQueryBlock,vector_size_10_to_100_thorough_test)
+{ TEST_TYPE = "thorough";
+  shared_ptr<RangeMinimumQuery<int>> R = make_shared<RangeMinimumQueryBlock<int>>();
+  testing_rmq(10,100,R);
+}
+TEST(PRangeMinimumQueryBlock,vector_size_10_to_100_thorough_test)
+{ TEST_TYPE = "thorough";
+  shared_ptr<PRangeMinimumQuery<int>> R = make_shared<PRangeMinimumQueryBlock<int>>();
+  p_testing_rmq(10,100,R);
+}
+//
+TEST(RangeMinimumQueryBlock,vector_size_200_to_300_thorough_test)
+{ TEST_TYPE = "thorough";
+  shared_ptr<RangeMinimumQuery<int>> R = make_shared<RangeMinimumQueryBlock<int>>();
+  testing_rmq(200,300,R);
+}
+TEST(PRangeMinimumQueryBlock,vector_size_200_to_300_thorough_test)
+{ TEST_TYPE = "thorough";
+  shared_ptr<PRangeMinimumQuery<int>> R = make_shared<PRangeMinimumQueryBlock<int>>();
+  p_testing_rmq(200,300,R);
+}
+//
+TEST(RangeMinimumQueryBlock,vector_size_10_to_100_unique_test)
+{ TEST_TYPE = "unique";
+  shared_ptr<RangeMinimumQuery<int>> R = make_shared<RangeMinimumQueryBlock<int>>();
+  testing_rmq(10,100,R);
+}
+TEST(PRangeMinimumQueryBlock,vector_size_10_to_100_unique_test)
+{ TEST_TYPE = "unique";
+  shared_ptr<PRangeMinimumQuery<int>> R = make_shared<PRangeMinimumQueryBlock<int>>();
+  p_testing_rmq(10,100,R);
+}
+//
+TEST(RangeMinimumQueryBlock,vector_size_1500000_to_1500050_unique_test)
+{ TEST_TYPE = "unique";
+  shared_ptr<RangeMinimumQuery<int>> R = make_shared<RangeMinimumQueryBlock<int>>();
+  testing_rmq(1500000,1500050,R);
+}
+TEST(PRangeMinimumQueryBlock,vector_size_1500000_to_1500050_unique_test)
+{ TEST_TYPE = "unique";
+  shared_ptr<PRangeMinimumQuery<int>> R = make_shared<PRangeMinimumQueryBlock<int>>();
   p_testing_rmq(1500000,1500050,R);
 }
